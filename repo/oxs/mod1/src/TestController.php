@@ -12,5 +12,6 @@ class TestController extends FrontendController
     public function render()
     {
         echo ContainerFacade::get(NameService::class)->getName();
+        //echo ContainerFacade::get(NameService::class)->test(); // uncomment only if mod1decorator is active
     }
 }
