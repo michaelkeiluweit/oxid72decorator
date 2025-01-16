@@ -8,6 +8,6 @@ trait HelperTrait
 {
     public function test()
     {
-     echo 'trait test';
+        echo 'trait test';
     }
 }
