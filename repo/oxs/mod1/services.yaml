@@ -1,0 +1,5 @@
+services:
+
+    OxidSupport\Mod1\NameService:
+        class: OxidSupport\Mod1\NameService
+        public: true

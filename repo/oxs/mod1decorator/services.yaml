@@ -1,0 +1,4 @@
+services:
+
+    OxidSupport\Mod1Decorator\NameServiceDecorator:
+        decorates: OxidSupport\Mod1\NameService

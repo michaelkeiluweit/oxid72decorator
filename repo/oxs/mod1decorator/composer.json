@@ -1,0 +1,16 @@
+{
+    "name": "oxid-support/mod1decorator",
+    "type": "oxideshop-module",
+    "version": "1.0.0",
+    "autoload": {
+        "psr-4": {
+            "OxidSupport\\Mod1Decorator\\": "src/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "oxid-esales/oxideshop-composer-plugin": true,
+            "oxid-esales/oxideshop-unified-namespace-generator": true
+        }
+    }
+}
